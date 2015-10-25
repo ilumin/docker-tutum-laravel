@@ -1,0 +1,8 @@
+api-service:
+    container_name: api-service
+    build: ./images/api-service
+    ports:
+        - "80:80"
+        - "443:443"
+    volumes:
+        - ./src:/var/www/html
