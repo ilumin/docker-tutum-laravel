@@ -5,4 +5,4 @@ api-service:
         - "80:80"
         - "443:443"
     volumes:
-        - ./src:/var/www/html
+        - ./src/api-service:/var/www/html
