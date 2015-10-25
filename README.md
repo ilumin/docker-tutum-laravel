@@ -14,3 +14,5 @@
 > cp -R api-service interface-service
 > cd ..
 > docker-compose up -d
+> chmod -R 777 src/api-service/storage
+> chmod -R 777 src/api-service/bootstrap/cache
